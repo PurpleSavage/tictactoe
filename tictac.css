@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10vh;
+    height: 100vh;
+    width: 100%;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: rgb(250, 212, 212);
+    height: 40vh;
+    width: 40vh;
+}
+.cel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+}
+.winner_set{
+    height: 8vh;
+    width: 25vh;
+    background: rgb(216, 211, 211);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cont_player{
+    width: 14vw;
+    padding: 2vh;
+    background: rgb(216, 211, 211);
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
